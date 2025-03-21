@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
             printf("Waitpid hiba");
             return 1;
         }
-        printf("A gyermek futása befejezodott, visszateresi ertek: %d\n", status);
+        printf("A gyermek futasa befejezodott, visszateresi ertek: %d\n", status);
         return 0;
     }
 }
